@@ -6,6 +6,7 @@ Provides on any architecture compliant system a way to get to
 - git
 - hg
 
+<i class="fa fa-book">foo</i>
 
 through static access to a snapshot of this repo (e.g. via http, scp) only.
 
