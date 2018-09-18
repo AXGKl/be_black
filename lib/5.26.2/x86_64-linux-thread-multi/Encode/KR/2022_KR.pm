@@ -1,0 +1,1 @@
+/tmp/black/pkgs/perl-5.26.2-h14c3975_0/lib/5.26.2/x86_64-linux-thread-multi/Encode/KR/2022_KR.pm

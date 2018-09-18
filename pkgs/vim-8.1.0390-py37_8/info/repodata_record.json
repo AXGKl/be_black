@@ -1,0 +1,21 @@
+{
+  "arch": "x86_64",
+  "build": "py37_8",
+  "build_number": 8,
+  "channel": "https://axchange.axiros.com/pub/conda_axchange/channel/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "features": "",
+  "fn": "vim-8.1.0390-py37_8.tar.bz2",
+  "md5": "ad84e096e6df3c1b943b04b4bef8cdc4",
+  "name": "vim",
+  "platform": "linux",
+  "size": 9158978,
+  "subdir": "linux-64",
+  "timestamp": 1537036733043,
+  "track_features": "",
+  "url": "https://axchange.axiros.com/pub/conda_axchange/channel/linux-64/vim-8.1.0390-py37_8.tar.bz2",
+  "version": "8.1.0390"
+}

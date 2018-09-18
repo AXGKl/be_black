@@ -1,0 +1,69 @@
+# This file created by conda-build 3.10.7
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/constructor-2.1.1-python_3.7-on-linux_64, last modified Sat Jul 14 06:00:34 2018
+# ------------------------------------------------
+
+package:
+    name: constructor
+    version: 2.1.1
+source:
+    fn: constructor-2.1.1.tar.gz
+    sha256: 902db61e5aba82cc5536bedea48758cbfeac2a8475c664601bb6ab18d0cd4255
+    url: https://github.com/conda/constructor/archive/2.1.1.tar.gz
+build:
+    entry_points:
+        - constructor = constructor.main:main
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.4.16 py37_0
+        - libedit 3.1.20170329 h6b74fdf_2
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - libstdcxx-ng 7.2.0 hdf63c60_3
+        - ncurses 6.1 hf484d3e_0
+        - openssl 1.0.2o h20670df_0
+        - python 3.7.0 hc3d631a_0
+        - readline 7.0 ha6073c6_4
+        - setuptools 39.2.0 py37_0
+        - sqlite 3.24.0 h84994c4_0
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.4 h14c3975_4
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - conda
+        - python >=3.7,<3.8.0a0
+        - ruamel_yaml
+        - setuptools
+test:
+    commands:
+        - constructor --test
+    imports:
+        - constructor
+about:
+    description: 'Constructor is a tool for constructing an installer for a collection
+        of
+
+        conda packages. It creates an Anaconda-like installer consisting of
+
+        packages.
+
+        '
+    dev_url: https://github.com/conda/constructor
+    home: http://github.com/conda/constructor
+    license: BSD 3-Clause
+    license_family: BSD
+    license_file: LICENSE.txt
+    summary: create installer from conda packages
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - kalefranz
+        - mingwandroid
+        - msarahan
+        - nehaljwani

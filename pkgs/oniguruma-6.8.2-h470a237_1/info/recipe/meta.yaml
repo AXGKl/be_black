@@ -1,0 +1,26 @@
+# This file created by conda-build 3.14.4
+# meta.yaml template originally from:
+# /b/pkgs/oniguruma-6.8.2-h470a237_1/info/recipe, last modified Sat Sep 15 20:55:11 2018
+# ------------------------------------------------
+
+package:
+    name: oniguruma
+    version: 6.8.2
+source:
+    fn: onig-6.8.2.tar.gz
+    sha256: adeada5f6b54c2a6f58ff021831a01b18a62b55ea9935e972e36ebb19e7c4903
+    url: https://github.com/kkos/oniguruma/releases/download/v6.8.2/onig-6.8.2.tar.gz
+build:
+    number: '1'
+    string: h470a237_1
+about:
+    home: https://github.com/kkos/oniguruma
+    license: BSD 2-Clause
+    license_file: COPYING
+    summary: A regular expression library.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - kkos

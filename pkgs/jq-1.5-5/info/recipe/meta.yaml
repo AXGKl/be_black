@@ -1,0 +1,32 @@
+# This file created by conda-build 3.14.4
+# meta.yaml template originally from:
+# /b/pkgs/jq-1.5-4/info/recipe, last modified Sat Sep 15 20:58:02 2018
+# ------------------------------------------------
+
+package:
+    name: jq
+    version: '1.5'
+source:
+    fn: jq-1.5.tar.gz
+    md5: 0933532b086bd8b6a41c1b162b1731f9
+    url: https://github.com/stedolan/jq/releases/download/jq-1.5/jq-1.5.tar.gz
+build:
+    number: '5'
+    string: '5'
+requirements:
+    build:
+        - oniguruma 6.8.2 h470a237_1
+    run:
+        - oniguruma 6.8.*
+test:
+    commands:
+        - jq --help
+about:
+    home: http://stedolan.github.io/jq/
+    license: MIT
+    license_file: COPYING
+    summary: A command-line JSON processor.
+extra:
+    final: true
+    recipe-maintainers:
+        - jakirkham

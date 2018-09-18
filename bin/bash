@@ -1,0 +1,1 @@
+/bin/bash --rcfile "/tmp/black/bin/app/environ/bash/bashrc" $*

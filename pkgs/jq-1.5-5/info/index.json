@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "5",
+  "build_number": 5,
+  "depends": [
+    "oniguruma 6.8.*"
+  ],
+  "license": "MIT",
+  "name": "jq",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1537037905591,
+  "version": "1.5"
+}

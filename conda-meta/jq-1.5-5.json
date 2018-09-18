@@ -1,0 +1,129 @@
+{
+  "arch": "x86_64",
+  "build": "5",
+  "build_number": 5,
+  "channel": "https://axchange.axiros.com/pub/conda_axchange/channel/linux-64",
+  "constrains": [],
+  "depends": [
+    "oniguruma 6.8.*"
+  ],
+  "extracted_package_dir": "/tmp/black/pkgs/jq-1.5-5",
+  "features": "",
+  "files": [
+    "bin/jq",
+    "include/jq.h",
+    "include/jv.h",
+    "lib/libjq.a",
+    "lib/libjq.so",
+    "lib/libjq.so.1",
+    "lib/libjq.so.1.0.4",
+    "share/doc/jq/AUTHORS",
+    "share/doc/jq/COPYING",
+    "share/doc/jq/README",
+    "share/doc/jq/README.md",
+    "share/man/man1/jq.1"
+  ],
+  "fn": "jq-1.5-5.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/tmp/black/pkgs/jq-1.5-5",
+    "type": 2
+  },
+  "md5": "97b58a64950c31d0c0ac1ce126e81462",
+  "name": "jq",
+  "package_tarball_full_path": "/tmp/black/pkgs/jq-1.5-5.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/jq",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/black/conda-bld/jq_1537037888259/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "4996cb27cb01e7f6c2a60949372e590b42f6e83cb780be9422423528b32e8e2a",
+        "sha256_in_prefix": "976db77b3e352ec9db9d2c2cfcf38da20576433d7a46712b2077291164689883",
+        "size_in_bytes": 974432
+      },
+      {
+        "_path": "include/jq.h",
+        "path_type": "softlink",
+        "sha256": "d26c9f99d3ff4f20d092292695d5817ce9ca0d7e134cf23a5207a0722a14bb71",
+        "size_in_bytes": 2108
+      },
+      {
+        "_path": "include/jv.h",
+        "path_type": "softlink",
+        "sha256": "3fcaa480247984dffd352a415d8eda43329280bd4400015c262e9f8e1912088b",
+        "size_in_bytes": 7353
+      },
+      {
+        "_path": "lib/libjq.a",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/black/conda-bld/jq_1537037888259/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "11a6efc173983b1a5e0c620383041bc1ac488d81fa3cb3f748581df9a4824bba",
+        "sha256_in_prefix": "113136e3ee23e083212314d9fb6eb70853c9b5a3a22e587ad99d53052efb3564",
+        "size_in_bytes": 1716270
+      },
+      {
+        "_path": "lib/libjq.so",
+        "path_type": "softlink",
+        "sha256": "c45ec32106d06f7d39f2472bb1d118e22bcf112b9a45c73eade8e6d4d1767d1a",
+        "size_in_bytes": 863896
+      },
+      {
+        "_path": "lib/libjq.so.1",
+        "path_type": "softlink",
+        "sha256": "c45ec32106d06f7d39f2472bb1d118e22bcf112b9a45c73eade8e6d4d1767d1a",
+        "size_in_bytes": 863896
+      },
+      {
+        "_path": "lib/libjq.so.1.0.4",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/black/conda-bld/jq_1537037888259/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "c45ec32106d06f7d39f2472bb1d118e22bcf112b9a45c73eade8e6d4d1767d1a",
+        "sha256_in_prefix": "9154ca82d689e970703c58e9e36883016cd7ab47e5237fc1c5a5d290ba69d881",
+        "size_in_bytes": 863896
+      },
+      {
+        "_path": "share/doc/jq/AUTHORS",
+        "path_type": "softlink",
+        "sha256": "c9b838f7dfae708c6c0b8c3737b5a6b0d6f48cfe350b63a26fa5394713f1bef7",
+        "size_in_bytes": 4077
+      },
+      {
+        "_path": "share/doc/jq/COPYING",
+        "path_type": "softlink",
+        "sha256": "d55c522a93dbabb81ffb92a391ed1eb10be4ea69227b5a298927043b6b904fef",
+        "size_in_bytes": 2958
+      },
+      {
+        "_path": "share/doc/jq/README",
+        "path_type": "softlink",
+        "sha256": "d89150c1ea4290c95631f62810cd8d6993481d5d9811b1c6607abf3d57a0f485",
+        "size_in_bytes": 2298
+      },
+      {
+        "_path": "share/doc/jq/README.md",
+        "path_type": "softlink",
+        "sha256": "d89150c1ea4290c95631f62810cd8d6993481d5d9811b1c6607abf3d57a0f485",
+        "size_in_bytes": 2298
+      },
+      {
+        "_path": "share/man/man1/jq.1",
+        "path_type": "softlink",
+        "sha256": "d2375c17a9c975d85cb3ac67eb69d0986601913a1e9d7bba2af221011d25b07a",
+        "size_in_bytes": 89351
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "jq",
+  "size": 1137677,
+  "subdir": "linux-64",
+  "timestamp": 1537037905591,
+  "track_features": "",
+  "url": "https://axchange.axiros.com/pub/conda_axchange/channel/linux-64/jq-1.5-5.tar.bz2",
+  "version": "1.5"
+}

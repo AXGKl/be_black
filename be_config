@@ -1,0 +1,14 @@
+# Tue Sep 18 15:11:03 CEST 2018
+# by /root/bashenv/misc/create_bashenv/create -c black -GP -u AXGKl go
+#!/usr/bin/env bash
+default_prefix="/tmp/black"
+channels="https://axchange.axiros.com/pub/conda_axchange/channel"
+conda_ver="3-latest"
+packages="vim jq"
+#-c 'https://axchange.axiros.com/pub/conda_axchange/channel' vim
+pips="structlog rx gevent httpie"
+#local_pypath_from_sys_path_in="/opt/axess/bin/paster"
+
+#arch="Linux-x86_64"
+#root_python="3.6.1"
+

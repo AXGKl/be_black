@@ -1,0 +1,54 @@
+# This file created by conda-build 3.10.5
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/perl-5.26.2-on-linux_64, last modified Fri Jun  1 05:46:20 2018
+# ------------------------------------------------
+
+package:
+    name: perl
+    version: 5.26.2
+source:
+    sha256: 572f9cea625d6062f8a63b5cee9d3ee840800a001d2bb201a41b9a177ab7f70d
+    url: http://www.cpan.org/src/5.0/perl-5.26.2.tar.gz
+build:
+    number: '0'
+    string: h14c3975_0
+requirements:
+    build:
+        - binutils_impl_linux-64 2.28.1 had2808c_3
+        - binutils_linux-64 7.2.0 had2808c_27
+        - gcc_impl_linux-64 7.2.0 habb00fd_3
+        - gcc_linux-64 7.2.0 h550dcbe_27
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - libstdcxx-ng 7.2.0 hdf63c60_3
+        - make 4.2.1 h1bed415_1
+    host:
+        - libgcc-ng 7.2.0 hdf63c60_3
+    run:
+        - libgcc-ng >=7.2.0
+test:
+    commands:
+        - perl --help
+about:
+    description: 'Perl 5 is a highly capable, feature-rich programming language with
+        over 29
+
+        years of development. Perl 5 runs on over 100 platforms from portables to
+
+        mainframes and is suitable for both rapid prototyping and large scale
+
+        development projects.
+
+        '
+    dev_url: https://perl5.git.perl.org/perl.git
+    doc_url: https://www.perl.org/docs.html
+    home: http://www.perl.org/
+    license: Perl Artistic
+    license_family: Other
+    summary: The Perl programming language interpreter.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - mingwandroid
+        - msarahan

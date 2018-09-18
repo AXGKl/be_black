@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+default_prefix="/xc.reactive_python_2.7"
+
+packages="-c conda-forge jq httpie
+"
+
+pips="structlog rx"
+
+tests='
+http --version
+jq --version
+'
+tests_python='import rx, structlog; print(structlog, rx)'
+

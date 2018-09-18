@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "conda",
+    "python >=3.7,<3.8.0a0",
+    "ruamel_yaml",
+    "setuptools"
+  ],
+  "features": "",
+  "fn": "constructor-2.1.1-py37_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "md5": "048373c36109a758e6e69d6c1217952e",
+  "name": "constructor",
+  "platform": "linux",
+  "size": 65520,
+  "subdir": "linux-64",
+  "timestamp": 1531548885182,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/constructor-2.1.1-py37_0.tar.bz2",
+  "version": "2.1.1"
+}

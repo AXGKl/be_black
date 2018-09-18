@@ -1,0 +1,31 @@
+{
+  "arch": "x86_64",
+  "build": "py37_1",
+  "build_number": 1,
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/certifi-2018.08.24-py3.7.egg-info",
+    "lib/python3.7/site-packages/certifi/__init__.py",
+    "lib/python3.7/site-packages/certifi/__main__.py",
+    "lib/python3.7/site-packages/certifi/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/certifi/__pycache__/__main__.cpython-37.pyc",
+    "lib/python3.7/site-packages/certifi/__pycache__/core.cpython-37.pyc",
+    "lib/python3.7/site-packages/certifi/cacert.pem",
+    "lib/python3.7/site-packages/certifi/core.py"
+  ],
+  "installed_by": "Miniconda3-4.5.11-Linux-x86_64.sh",
+  "license": "ISC",
+  "link": {
+    "source": "/tmp/black/pkgs/certifi-2018.8.24-py37_1",
+    "type": "hard-link"
+  },
+  "md5": "c58f455ae3a33a71cdff7db6f04d7522",
+  "name": "certifi",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1535377830376,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/certifi-2018.8.24-py37_1.tar.bz2",
+  "version": "2018.8.24"
+}

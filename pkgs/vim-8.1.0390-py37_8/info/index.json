@@ -1,0 +1,13 @@
+{
+  "arch": "x86_64",
+  "build": "py37_8",
+  "build_number": 8,
+  "depends": [
+    "python >=3.6"
+  ],
+  "name": "vim",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1537036733043,
+  "version": "8.1.0390"
+}

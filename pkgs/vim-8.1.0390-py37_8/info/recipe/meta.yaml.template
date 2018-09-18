@@ -1,0 +1,25 @@
+# This file created by conda-build 2.1.9
+# meta.yaml template originally from:
+# /home/duraner1/local/RH6/conda/recipes/vim, last modified Thu Aug 25 09:09:10 2016
+# ------------------------------------------------
+
+package:
+    name: vim
+    version: 8.1.0390
+source:
+    url: https://github.com/vim/vim/archive/v8.1.0390.tar.gz
+build:
+    binary_has_prefix_files:
+        - bin/vim
+    number: 8
+    #string: "py3.3"
+requirements:
+    build:
+        - python 3
+    run:
+        - python >=3.6
+test:
+    commands:
+        - vim --version
+extra:
+    final: true

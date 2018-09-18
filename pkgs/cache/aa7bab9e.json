@@ -1,0 +1,51 @@
+{"_url": "https://axchange.axiros.com/pub/conda_axchange/channel/linux-64", "_etag": "\"5b9d5847-554\"", "_mod": "Sat, 15 Sep 2018 19:06:47 GMT", 
+  "info": {
+    "subdir": "linux-64"
+  },
+  "packages": {
+    "jq-1.5-5.tar.bz2": {
+      "build": "5",
+      "build_number": 5,
+      "depends": [
+        "oniguruma 6.8.*"
+      ],
+      "license": "MIT",
+      "md5": "97b58a64950c31d0c0ac1ce126e81462",
+      "name": "jq",
+      "sha256": "6586e7475c4bf3c47f63950475d191ee7d63392039506857edc1e8dc1991bed1",
+      "size": 1137677,
+      "subdir": "linux-64",
+      "timestamp": 1537037905591,
+      "version": "1.5"
+    },
+    "oniguruma-6.8.2-h470a237_1.tar.bz2": {
+      "build": "h470a237_1",
+      "build_number": 1,
+      "depends": [],
+      "license": "BSD 2-Clause",
+      "md5": "bb62cc0c7a1f50dfbf27a2830487875b",
+      "name": "oniguruma",
+      "sha256": "040c42d5f6d61a2c33546d9cfe633d38818b70035701db7577a8cc2eeefa919b",
+      "size": 968635,
+      "subdir": "linux-64",
+      "timestamp": 1537037740767,
+      "version": "6.8.2"
+    },
+    "vim-8.1.0390-py37_8.tar.bz2": {
+      "build": "py37_8",
+      "build_number": 8,
+      "depends": [
+        "python >=3.6"
+      ],
+      "md5": "ad84e096e6df3c1b943b04b4bef8cdc4",
+      "name": "vim",
+      "sha256": "fee48f686ae8dc7591d043f3880c9db1f743a672ac8aa27d6ce440623e104dd9",
+      "size": 9158978,
+      "subdir": "linux-64",
+      "timestamp": 1537036733043,
+      "version": "8.1.0390"
+    }
+  },
+  "removed": [],
+  "repodata_version": 1
+}

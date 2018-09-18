@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "h14c3975_0",
+  "build_number": 0,
+  "depends": [
+    "libgcc-ng >=7.2.0"
+  ],
+  "license": "Perl Artistic",
+  "license_family": "Other",
+  "name": "perl",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1527832845796,
+  "version": "5.26.2"
+}

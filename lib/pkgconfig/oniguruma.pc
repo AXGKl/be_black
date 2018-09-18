@@ -1,0 +1,14 @@
+prefix=/tmp/black
+exec_prefix=/tmp/black
+libdir=/tmp/black/lib
+includedir=/tmp/black/include
+datarootdir=/tmp/black/share
+datadir=/tmp/black/share
+
+Name: oniguruma
+Description: Regular expression library
+Version: 6.8.2
+Requires:
+Libs: -L${libdir} -lonig
+Cflags: -I${includedir}
+

@@ -1,0 +1,63 @@
+{
+  "paths": [
+    {
+      "_path": "bin/onig-config",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "49234257d8f1430f7fac52bd95441f896e07929483dd7d93057c7a9d17a624ca",
+      "size_in_bytes": 1403
+    },
+    {
+      "_path": "include/oniggnu.h",
+      "path_type": "hardlink",
+      "sha256": "cb85fb9f5ecd5d82372c8f3438ced9712af5a4a7b466389e2c11bf61a2f5531e",
+      "size_in_bytes": 3394
+    },
+    {
+      "_path": "include/onigposix.h",
+      "path_type": "hardlink",
+      "sha256": "1d651c206aa19208820b10e42c2776d5a723b0a166154a4031d0f286ba7c0172",
+      "size_in_bytes": 5913
+    },
+    {
+      "_path": "include/oniguruma.h",
+      "path_type": "hardlink",
+      "sha256": "dca17566ec47a8bcd1f961dec7badfddea20136f60ac828cba714bacf8561a77",
+      "size_in_bytes": 44736
+    },
+    {
+      "_path": "lib/libonig.a",
+      "path_type": "hardlink",
+      "sha256": "d48edb0f68fe4555a8a80f7f87f7d70103ae9c24085bf3b9c9d578902fd03aa0",
+      "size_in_bytes": 2176606
+    },
+    {
+      "_path": "lib/libonig.so",
+      "path_type": "softlink",
+      "sha256": "e47c2d89d81520b80b5fbd0be42c7cba08f4e16248edde24e50794222701e839",
+      "size_in_bytes": 1343192
+    },
+    {
+      "_path": "lib/libonig.so.5",
+      "path_type": "softlink",
+      "sha256": "e47c2d89d81520b80b5fbd0be42c7cba08f4e16248edde24e50794222701e839",
+      "size_in_bytes": 1343192
+    },
+    {
+      "_path": "lib/libonig.so.5.0.0",
+      "path_type": "hardlink",
+      "sha256": "e47c2d89d81520b80b5fbd0be42c7cba08f4e16248edde24e50794222701e839",
+      "size_in_bytes": 1343192
+    },
+    {
+      "_path": "lib/pkgconfig/oniguruma.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "956de9212e68d327a508af9bae527ffac75016c2536f9c281278ab374995090e",
+      "size_in_bytes": 411
+    }
+  ],
+  "paths_version": 1
+}

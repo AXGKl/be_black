@@ -1,0 +1,21 @@
+.DS_Store
+pkgs/*.bz2
+man/*
+ssl/man/*
+
+conda-bld/*
+
+# Use wildcards as well
+*~
+*.swp
+*.orig
+*.swo
+*.swn
+.svn
+.lock
+.log
+.tmp
+*.pyc
+*.pyo
+#.axc/*
+.cache

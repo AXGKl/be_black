@@ -1,0 +1,56 @@
+{% set version = "2.1.1" %}
+{% set sha256 = "902db61e5aba82cc5536bedea48758cbfeac2a8475c664601bb6ab18d0cd4255" %}
+
+package:
+  name: constructor
+  version: {{ version }}
+
+source:
+  fn: constructor-{{ version }}.tar.gz
+  url: https://github.com/conda/constructor/archive/{{ version }}.tar.gz
+  sha256: {{ sha256 }}
+
+build:
+  number: 0
+  script: python setup.py install --single-version-externally-managed --record=record.txt
+  entry_points:
+    - constructor = constructor.main:main
+
+requirements:
+  host:
+    - python
+    - setuptools
+
+  run:
+    - python
+    - setuptools
+    - conda
+    - ruamel_yaml
+    - pillow >=3.1     # [win]
+    - nsis >=3.01      # [win]
+
+test:
+  imports:
+    - constructor
+  commands:
+    - constructor --test
+
+about:
+  home: http://github.com/conda/constructor
+  license: BSD 3-Clause
+  license_family: BSD
+  license_file: LICENSE.txt
+  summary: create installer from conda packages
+  description: |
+    Constructor is a tool for constructing an installer for a collection of
+    conda packages. It creates an Anaconda-like installer consisting of
+    packages.
+  dev_url: https://github.com/conda/constructor
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - kalefranz
+    - msarahan
+    - mingwandroid
+    - nehaljwani

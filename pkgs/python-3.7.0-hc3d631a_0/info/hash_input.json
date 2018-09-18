@@ -1,0 +1,11 @@
+{
+  "bzip2": "1.0",
+  "tk": "8.6",
+  "cxx_compiler": "gxx",
+  "libffi": "3.2",
+  "c_compiler": "gcc",
+  "zlib": "1.2",
+  "sqlite": "3",
+  "xz": "5",
+  "openssl": "1.0.2"
+}

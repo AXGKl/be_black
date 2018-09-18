@@ -1,0 +1,53 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.7/site-packages/certifi-2018.08.24-py3.7.egg-info",
+      "path_type": "hardlink",
+      "sha256": "273b36e0a8d064e62d811e405093a8aae86486a14f76ff4724234396c6dd1222",
+      "size_in_bytes": 2950
+    },
+    {
+      "_path": "lib/python3.7/site-packages/certifi/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e65098575896c688ab5f53806921e405852e64675cc048c4052e834bfb6b2f4b",
+      "size_in_bytes": 63
+    },
+    {
+      "_path": "lib/python3.7/site-packages/certifi/__main__.py",
+      "path_type": "hardlink",
+      "sha256": "162398b75165b6cb7bc24f4345ae860a806bf2a054c65350bbf30a25fd3813ab",
+      "size_in_bytes": 41
+    },
+    {
+      "_path": "lib/python3.7/site-packages/certifi/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "3b7010b6e69567a175606a832dff46c6a42020e63b067563bfffbf0944671b1f",
+      "size_in_bytes": 219
+    },
+    {
+      "_path": "lib/python3.7/site-packages/certifi/__pycache__/__main__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "85f67538ecc37aa51f7d84b728699c2fe86030a86e7358910308f13353c2db6b",
+      "size_in_bytes": 190
+    },
+    {
+      "_path": "lib/python3.7/site-packages/certifi/__pycache__/core.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "1f8caf71c1a4a45365c9055c8849f08a30548a16a629acbdebb6130cf0a1f598",
+      "size_in_bytes": 1154
+    },
+    {
+      "_path": "lib/python3.7/site-packages/certifi/cacert.pem",
+      "path_type": "hardlink",
+      "sha256": "5c0fb81d506c3ab043e657e0f9bdcf894cc0bf051ddaa948cf05f2a483084463",
+      "size_in_bytes": 263074
+    },
+    {
+      "_path": "lib/python3.7/site-packages/certifi/core.py",
+      "path_type": "hardlink",
+      "sha256": "c4f403746fec8b2e40ec17ea1966bb44985c03ad715c4a8f892af0f463728471",
+      "size_in_bytes": 836
+    }
+  ],
+  "paths_version": 1
+}

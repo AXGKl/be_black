@@ -1,0 +1,4 @@
+[http]
+	sslVerify = true
+	sslCAPath = /tmp/black/ssl/cacert.pem
+	sslCAInfo = /tmp/black/ssl/cacert.pem
